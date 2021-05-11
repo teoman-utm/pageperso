@@ -1,0 +1,146 @@
+<html>
+
+<head>
+
+<link href="cssesme.css" rel="stylesheet" type="text/css">
+
+<title>Uctum Teoman</title>
+
+</head>
+
+<body>
+
+<h1>Teoman Uctum</h1>
+
+    <title>Sélecteur Simple</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="CSS/nav.css" />
+    <nav>
+        <ul id="liste">
+          <li><a href="presentation.html">Présentation</a></li>
+          <li><a href="etudes.html">Etudes</a></li>
+          <li><a href="">Compétences</a></li>
+          <li><a href="loisirs.html">Loisirs</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+  <form action="" method="post">
+
+    <h1>Le formulaire lol :)</h1>
+
+    <fieldset><legend><h4>Vos coordonnées</h4></legend>
+
+      <label for="Nom:">Nom :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+        <input id="nom" type="text" name="nom" /><br><br>
+
+      <label for="Prénom:">Prénom :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+        <input id="prenom" type="text" name="prenom" /><br><br>
+
+      <label for="Date de naissance:">Date de naissance :&nbsp;</label>
+
+        <input id="date de naissance" type="text" name="date de naissance" /><br><br>
+
+      <label for="Mail:">Mail :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+        <input id="mail" type="text" name="mail" /><br><br>
+
+      <label for="Votre site:">Votre site :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+      <input id="votre site" type="text" name="votre site" /><br><br>
+
+      <label for="Code:">Code :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+        <input id="code" type="text" name="code" /><br><br>
+
+      <p>Genre :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <input name="sexe" type="radio"/>Homme<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <input name="sexe" type="radio"/>Femme<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <input name="sexe" type="radio"/>Autre<br><br>
+
+      <label for="pays">Pays: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      
+            <select id="pays">
+
+                <option value="pays" name="pays"></input>Votre pays</option>
+              
+              <optgroup label="Europe">
+                <option value="pays" name="pays">Allemange</option>
+                <option value="Pays" name="pays">Autriche</option>
+                <option value="Pays" name="pays">Belgique</option>
+                <option value="Pays" name="pays">Bulgarie</option>
+                <option value="Pays" name="pays">Chypre</option>
+                <option value="Pays" name="pays">Croatie</option>
+                <option value="Pays" name="pays">Danemark</option>
+                <option value="Pays" name="pays">Espagne</option>
+                <option value="Pays" name="pays">Estonie</option>
+                <option value="Pays" name="pays">Finlande</option>
+                <option value="pays" name="pays">France</option>
+              </optgroup>
+
+              <optgroup label="Amérique du Nord">
+                <option value="pays" name="pays">Canada</option>
+                <option value="pays" name="pays">Etats-Unis</option>
+              </optgroup>
+
+              <optgroup label="Amérique du Sud">
+                <option value="pays" name="pays">Argentine</option>
+                <option value="pays" name="pays">Colombie</option>
+                <option value="pays" name="pays">Mexique</option>
+              </optgroup>
+
+              <optgroup label="Moyen Orient">
+                <option value="Pays" name="pays">Arabie Saoudite</option>
+                <option value="Pays" name="pays">Iran</option>
+                <option value="Pays" name="pays">Turquie</option>
+                <option value="Pays" name="pays">Yemen</option>
+              </optgroup>
+
+              <optgroup label="Asie">
+                <option value="Pays" name="pays">Chine</option>
+                <option value="Pays" name="pays">Corée du Sud</option>
+                <option value="Pays" name="pays">Japon</option>
+                <option value="Pays" name="pays">Thaïlande</option>
+
+        </select><br>
+
+    </fieldset>
+
+    <fieldset><legend><h4>Vos goûts</h4></legend>
+        
+        <label for="Döner"><input id="Döner" type="checkbox" name="binet" value="chat">Döner Kebap</label><br>
+    
+        <label for="Adana"><input id="Tarte" type="checkbox" name="binet" value="chat">Adana Kebap</label><br>
+
+        <label for="Urfa"><input id="Tarte" type="checkbox" name="binet" value="chat">Urfa Kebap</label><br>
+    
+        <label for="Şiş"><input id="Tarte" type="checkbox" name="binet" value="chat">Şiş Kebap</label><br><br>
+    
+        <label for="comments" ></label>
+    
+          <textarea id="comments" placeholder="Décrivez vos goûts en détail" rows="7" cols="53"></textarea>
+  
+      </fieldset>
+
+      <fieldset><legend><h4>Envoyer votre photo</h4></legend>
+        
+          <label for="avatar"></label>
+      
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"><br><br>
+      
+            <button>Réinitialiser le formulaire</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+            <button>Envoyer</button>
+      
+      </fieldset>
+
+  </form>
+
+</body>
+
+<br><a href="index.html">Retour</a>
